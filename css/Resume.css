@@ -1,0 +1,38 @@
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    border: 1px solid black;
+}
+#body {
+    border: 2px solid black;
+    height: 500px;
+    width: 450px;
+}
+body{
+    margin: 100px;
+    margin-top: 40px;
+    
+}
+
+#outer {
+    display: flex;
+}
+
+#inner {
+   margin: auto;
+}
+hr{
+    border: 1px solid black;
+}
+#Table, tr{
+    width: 400px;
+    margin: 10px;
+}
