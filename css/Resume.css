@@ -12,17 +12,20 @@ img{
     border: 1px solid black;
 }
 #body {
-    border: 2px solid black;
-    height: 500px;
-    width: 450px;
+    margin: 10px 300px;
+    border: 3px solid black;
+    height: 9 00px;
+    width: 600px;
+    background-color:rgb(230, 229, 229);
 }
 body{
     margin: 100px;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
 
 #outer {
+    margin: 40px 0px;
+    margin-left: 90px;
     display: flex;
 }
 
@@ -33,6 +36,16 @@ hr{
     border: 1px solid black;
 }
 #Table, tr{
-    width: 400px;
+    width: 450px;
     margin: 10px;
+}
+#hobbies{
+    margin: 40px 0px;
+    margin-left: 90px;
+}
+#hobbies ul{
+    list-style-type: square;
+}
+#Table{
+  margin: 40px 0;
 }

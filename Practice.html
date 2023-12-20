@@ -3,23 +3,45 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="wsidth=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    p:hover{
-        background-color: rgb(236, 152, 152);
-    }
-    p::after{
-     content: "I am Neha"; 
-   font-size: larger; 
-      
-    }
-  </style>
 </head>
 
 <body>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor optio nostrum nihil non voluptates omnis illum
-    tenetur esse accusantium possimus!</p>
-</body>
+  <h1>Travel reservation form</h1>
+  <h3>* denotes mandotory</h3>
 
-</html>
+  <label for="name">Full Name*:</label>
+  <br>
+  <input type="text" id="name" placeholder="FirstName LastName">
+  <br>
+  <label for="ename">Email Addres*:
+    <br>
+    <input type="text" id="ename">
+    <br>
+  </label>
+  <label for=" village">Select Tour Package*:</label>
+  <br>
+  <select name="village" id="village">
+    <option value="Goa">Goa</option>
+    <option value="Japan">Japan</option>
+    <option value="China">China</option>
+  </select>
+  <br>
+ 
+  <label for="date">Arrival date*</label>
+  <br>
+  <input type="datetime" placeholder="m/d/y">
+<br>
+ <label for="number">Number of Persons*:</label>
+  <br>
+  <input id="number" type="number" placeholder=" UNKNOWN_TYPE">
+  <br>
+  
+  <label for="date">What would you want to avail?*</label>
+  <br>
+  <input type="checkbox" id="date">
+  <script src="script/script.js"></script>
+</body>
+  
+  </html>

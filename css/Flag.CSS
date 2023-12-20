@@ -1,0 +1,104 @@
+div {
+    border: 0.1px solid black;
+}
+
+#one {
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(34, 34, 158);
+    margin: 0px 70px;
+    border-radius: 50%;
+}
+
+#two {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+}
+
+#three {
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+#Fone {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(158, 11, 11);
+}
+
+#Ftwo {
+    width: 132px;
+    height: 150px;
+    background-color: white;
+}
+
+#Fthree {
+    width: 66px;
+    height: 150px;
+    background-color: rgb(6, 6, 49);
+}
+
+#pone {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+}
+
+#cir {
+    margin: 25px 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 8, 8);
+}
+
+.Uone {
+    width: 200px;
+    height: 10px;
+    background-color: red;
+}
+
+#Ucircle {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(11, 7, 61);
+}
+
+pre {
+    color: white;
+}
+
+:nth-child(even) {
+    background-color: white;
+}
+
+#Bone {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(10, 110, 10);
+}
+
+#Btwo {
+    transform: rotate(45deg);
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 20px 40px;
+
+}
+
+#Bthree {
+    width: 50px;
+    height: 50px;
+    margin: 25px 25px;
+    border-radius: 50%;
+    background-color: rgb(43, 19, 66);
+}
